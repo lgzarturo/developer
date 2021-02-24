@@ -12,7 +12,7 @@ export default function Footer() {
           Theme by{" "}
           <a href="https://github.com/saadpasta/developerFolio">
             developerFolio
-          </a>
+          </a> - <a href="https://arthurolg.com">blog arthurolg.com</a>
         </p>
       </div>
     </Fade>

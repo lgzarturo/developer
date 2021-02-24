@@ -34,7 +34,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "A que me dedico",
-  subTitle: "ME GUSTA EXPLORAR LA TECNOLOGIA QUE ME AYUDE A SER MAS PRODUCTIVO",
+  subTitle: "ME GUSTA EXPLORAR LA TECNOLOGÍA QUE ME AYUDE A SER MAS PRODUCTIVO",
   skills: [
     emoji("⚡ Desarrollo y diseño de interfaces de usuario responsivas y eficientes"),
     emoji("⚡ Programación de microservicios, sdk y rest api."),
@@ -285,7 +285,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Hablo sobre temas de programación, tecnología.",
+    "Hablo sobre temas de programación, tecnología y marketing.",
 
   blogs: [
     {

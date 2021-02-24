@@ -46,7 +46,7 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Experencia</a>
             </li>
           )}
           {viewOpenSource && (
@@ -70,7 +70,7 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Contáctame</a>
           </li>
           <li>
             <a href="#">
