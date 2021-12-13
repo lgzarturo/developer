@@ -11,9 +11,9 @@ Este proyecto representa mi perfil profesional y mi portafolio de trabajo.
 
 ## Proyectos personales
 
-- [webdeveloperhints.com](Notas sobre desarrollo, programación, marketing digital y tecnología)
-- [arthuolg.com](Mi perfil profesional)
-- [joobslot.com](Tablero de empleos)
-- [miraeljuego.com](Juego de cartas, prácticas de programación con ReactJS y JavaScript)
+- [Notas sobre desarrollo, programación, marketing digital y tecnología](https://webdeveloperhints.com)
+- [Mi perfil profesional](https://arthurolg.com)
+- [Tablero de empleos](https://joobslot.com)
+- [Juego de cartas, prácticas de programación con ReactJS y JavaScript](https://miraeljuego.com)
 
 > Actualmente trabajo con ReactJS, JavaScript, SpringBoot, DynamoDB, Serverless, PostgreSQL en [Revenatium.com](https://revenatium.com/)
