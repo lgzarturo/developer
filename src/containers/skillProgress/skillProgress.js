@@ -1,7 +1,7 @@
 import React from "react";
 import "./Progress.css";
-import {illustration, techStack} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { illustration, techStack } from "../../portfolio";
+import { Fade } from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
@@ -13,15 +13,20 @@ export default function StackProgress() {
           <div className="skills-bar">
             <h1 className="skills-heading">Habilidades</h1>
             {techStack.experience.map((exp, i) => {
+              const size = exp.progressPercentage ?? 0;
               const progressStyle = {
-                width: exp.progressPercentage
+                width: size,
               };
               return (
                 <div key={i} className="skill">
                   <p>{exp.Stack}</p>
-                  <div className="meter">
-                    <span style={progressStyle}></span>
-                  </div>
+                  {size !== 0 ? (
+                    <div className="meter">
+                      <span style={progressStyle}></span>
+                    </div>
+                  ) : (
+                    ""
+                  )}
                 </div>
               );
             })}
